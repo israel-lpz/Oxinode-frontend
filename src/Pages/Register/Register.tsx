@@ -31,7 +31,7 @@ const Register: React.FC = (): React.ReactElement => {
 			showAlert().fire({
 				icon: createUser.error ? 'error' : 'success',
 				title: createUser.error ? 'error' : 'success',
-				text: createUser.error ? createUser.message : 'Usuario registrado',
+				text: createUser.error ? createUser.message : 'Usuario registrado, Sus credenciales mqtt se han enviado a su correo',
 				showCancelButton: false,
 				async onClose() {
 					if (!createUser.error) {

@@ -35,7 +35,7 @@ const Graphic: FC<IProps> = (props) => {
 	useEffect(() => {
 		const ioListener = (data: string) => {
 			const y = parseInt(data);
-			if (chartPoints.current.length == 14) {
+			if (chartPoints.current.length == 8) {
 				chartPoints.current.shift();
 			}
 			chartPoints.current.push({
