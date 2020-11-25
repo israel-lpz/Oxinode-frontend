@@ -1,3 +1,3 @@
 export const env = {
-	urlServer: 'https://youtipbackend'
+	urlServer: 'https://youtipbackend:yourportbackend'
 };
